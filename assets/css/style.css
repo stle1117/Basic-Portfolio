@@ -13,6 +13,7 @@ body {
     background-color: #4aaaa5;
     margin-left: 250px;
     align-content: left;
+    font-size: 30px;
 }
 
 .subheading {
@@ -20,6 +21,7 @@ body {
     color: #4aaaa5;
     background-color: white;
     width: 300px;
+    font-size: 25px;
 }
 
 a {
@@ -41,7 +43,7 @@ header {
     background-color: white;
     display: inline;
     margin-top: 200px;
-    margin-left: 200px;
+    margin-left: 500px;
     vertical-align: bottom;
 }
 
@@ -54,8 +56,8 @@ header {
 .section1 {
     background-color: white;
     height: 300px;
-    width: 650px;
-    margin-left: 250px;
+    width: 960px;
+    margin-left: 150px;
     margin-right: 100px;
     margin-top: 70px;
 }
@@ -64,9 +66,15 @@ header {
     background-color: white;
     height: 300px;
     width: 650px;
-    margin-left: 250px;
+    margin-left: 300px;
     margin-right: 100px;
     margin-top: 70px;
+}
+
+.contact {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
 .pic {
@@ -80,39 +88,73 @@ header {
     width: 400px;
 }
 
-
-.message {
-    text-align: top;
-}
-
 .resizedTextbox {
     height: 85px;
     width: 550px;
+    text-align: start;
 }
 
 footer {
     height: 100px;
-    background-color: rgb(17, 10, 10);
-    margin-top:  60px;
+    background-color: rgb(70, 63, 63);
     border-top: 15px; 
     border-color: #4aaaa5;
-    display: block;
+    display: fixed;
+    margin-top:  60px;
     position: relative;
 }
 
 .contactinfo {
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .pics1 {
     display: block;
-    margin-left: 300px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 700px;
+    position: relative;
+}
+
+.pics2 {
+    display: inline;
+    margin-left: 150px;
     position: relative;
 }
 
 .pics4 {
-    display: block;
-    margin-left: 300px; 
+    display: inline;
     position: relative;
+}
+
+#profileheading {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 100px;
+    height: 70px;
+}
+
+#headerBar {
+    height: 2px;
+    background: rgb(70, 63, 63);
+    width: 1150px;
+    margin-left: 50px;
+}
+
+#footerBar {
+    height: 40px;
+    margin-top: 30px;
+    float: left;
+    background: #4aaaa5;
+    z-index: 5;
+}
+
+.profilefoot {
+    height: 100px;
+    background-color: rgb(70, 63, 63);
+    display: fixed;
+    margin-top:  50px;
+    z-index: 0
 }
