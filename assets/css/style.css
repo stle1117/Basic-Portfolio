@@ -13,6 +13,7 @@ body {
     margin-left: 250px;
     align-content: left;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .subheading {
@@ -21,6 +22,7 @@ body {
     background-color: white;
     width: 300px;
     font-size: 25px;
+    padding: 10px 10px 10px 30px
 }
 
 a {
@@ -74,10 +76,13 @@ header {
     font-size: 20px;
     margin-left: 50px;
     margin-top: 30px;
+    padding: 20px 10px 0px 0px;
+    font-weight: bold;
 }
 
 .pic {
     float: left;
+    margin-left: 20px;
     margin-right: 40px;
     margin-bottom: 40px;
 }
@@ -112,6 +117,7 @@ footer {
 .contactinfo {
     margin-left: 50px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .pics1 {
@@ -125,6 +131,7 @@ footer {
 .imagetitle1 {
     background-color: white;
     color: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     z-index: 1;
     padding: 10px 77px 10px 80px;
     text-align: center;
@@ -145,6 +152,7 @@ footer {
 .imagetitle2 {
     background-color: white;
     color: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     padding: 10px 77px 10px 80px;
     text-align: center;
     z-index: 1;
@@ -166,6 +174,7 @@ footer {
 .imagetitle3 {
     background-color: white;
     color: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     z-index: 1;
     padding: 10px 77px 10px 80px;
     text-align: center;
@@ -187,6 +196,7 @@ footer {
 .imagetitle4 {
     background-color: white;
     color: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     padding: 10px 77px 10px 80px;
     text-align: center;
     z-index: 1;
@@ -207,6 +217,7 @@ footer {
 .imagetitle5 {
     background-color: white;
     color: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     padding: 10px 77px 10px 80px;
     text-align: center;
     z-index: 1;
@@ -217,12 +228,13 @@ footer {
 }
 
 #profileheading {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 40px;
     margin-left: 150px;
     width: 100px;
     height: 70px;
     display: block;
+    font-weight: bold;
 }
 
 #headerBar {
